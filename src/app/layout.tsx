@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Harsh Prajapati — Full-Stack Developer",
+  title: "Harsh | Full-Stack Developer Portfolio",
   description: "A modern, fast, and visually polished portfolio showcasing my full-stack projects, UI/UX work, technical expertise, and professional journey.",
 };
 
