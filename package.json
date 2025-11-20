@@ -11,6 +11,9 @@
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
     "@tabler/icons-react": "^3.35.0",
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "clsx": "^2.1.1",
     "gsap": "^3.13.0",
     "lucide-react": "^0.554.0",
