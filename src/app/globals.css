@@ -39,3 +39,26 @@ body {
   color: var(--foreground);
   font-family: 'Avant Garde Book BT';
 }
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+  /* Track color */
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #484848;
+  /* Purple */
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4f46e5;
+}

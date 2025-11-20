@@ -1,5 +1,5 @@
 import { SVGMaskEffectDemo } from "@/components/About";
-import { BentoGridDemo } from "@/components/Highlights";
+import { BentoGridThirdDemo } from "@/components/Highlights";
 import { FloatingDockDemo } from "@/components/Navbar";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <SVGMaskEffectDemo />
 
       {/* ----- Highlight Section */}
-      <BentoGridDemo />
+      <BentoGridThirdDemo />
     </>
   );
 }
