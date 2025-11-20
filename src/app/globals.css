@@ -7,6 +7,21 @@
   src: url('../../public/fonts/AVGARDD_2.woff') format('woff');
 }
 
+html.lenis {
+  height: auto;
+  /* Lenis scroll container ke liye */
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+  /* native smooth behavior disable karo, Lenis hi scroll karegi */
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+  /* jab Lenis disable ho, overflow control karo */
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
