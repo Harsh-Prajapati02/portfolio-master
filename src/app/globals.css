@@ -53,7 +53,7 @@ body {
 
 /* Scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: #484848;
+  background: #b7ab98;
   /* Purple */
   border-radius: 10px;
 }
