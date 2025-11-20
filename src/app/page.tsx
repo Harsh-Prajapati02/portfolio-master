@@ -1,4 +1,4 @@
-import { FloatingDockDemo } from "@/components/FloatingDockDemo";
+import { FloatingDockDemo } from "@/components/Navbar";
 
 export default function Home() {
   return (
