@@ -5,6 +5,7 @@ import { GridBackgroundDemo } from "@/components/Hero";
 import { BentoGridThirdDemo } from "@/components/Highlights";
 import { FloatingDockDemo } from "@/components/Navbar";
 import { ExpandableCardDemo } from "@/components/Projects";
+import { BentoGridSecondDemo } from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
 
       {/* ----- Highlight Section ----- */}
       <BentoGridThirdDemo />
+
+      {/* ----- Skills Section ----- */}
+      <BentoGridSecondDemo />
 
       {/* ----- Experience Section ----- */}
       <TimelineDemo />

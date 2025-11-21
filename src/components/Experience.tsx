@@ -147,7 +147,7 @@ export function TimelineDemo() {
         },
     ];
     return (
-        <div className="relative w-full overflow-clip">
+        <div className="relative w-full overflow-clip" style={{borderBottom:"5px solid #eb5939"}}>
             <Timeline data={data} />
         </div>
     );
