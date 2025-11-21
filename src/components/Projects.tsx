@@ -173,10 +173,11 @@ export function ExpandableCardDemo() {
                                     className="h-60 w-full  rounded-lg object-cover object-top"
                                 />
                             </motion.div>
-                            <div className="flex justify-center items-center flex-col">
+                            <div className="flex justify-center items-start flex-col">
                                 <motion.h3
                                     layoutId={`title-${card.title}-${id}`}
                                     className="font-medium text-[#b7ab98] dark:text-neutral-200 text-center md:text-left text-base"
+                                    style={{textAlign:"left"}}
                                 >
                                     {card.title}
                                 </motion.h3>

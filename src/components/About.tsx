@@ -3,7 +3,7 @@ import { MaskContainer } from "@/components/ui/svg-mask-effect";
 
 export function SVGMaskEffectDemo() {
     return (
-        <div className="flex h-full w-full items-center justify-center overflow-hidden bg-[#000000]" style={{borderTop:"5px solid #eb5939", borderBottom:"5px solid #eb5939"}}>
+        <div className="flex h-full w-full items-center justify-center overflow-hidden bg-[#000000]" style={{borderTop:"5px solid #eb5939"}}>
             <MaskContainer
                 revealText={<>
                     <p className="mx-auto max-w-4xl text-center text-3xl text-justify p-4 lg:p-0 lg:text-4xl font-bold text-[#b7ab98] leading-snug tracking-wide">
