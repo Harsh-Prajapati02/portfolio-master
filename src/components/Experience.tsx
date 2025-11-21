@@ -4,7 +4,7 @@ import Image from "next/image";
 export function TimelineDemo() {
     const data = [
         {
-            title: "2024",
+            title: "July 2025 - Oct 2025",
             content: (
                 <div>
                     <p className="mb-8 text-xs font-normal text-[#b7ab98] md:text-sm dark:text-neutral-200">
@@ -44,7 +44,7 @@ export function TimelineDemo() {
             ),
         },
         {
-            title: "Early 2023",
+            title: "Nov 2025 - Present",
             content: (
                 <div>
                     <p className="mb-8 text-xs font-normal text-[#b7ab98] md:text-sm dark:text-neutral-200">

@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Cover } from "./ui/cover";
 
 export function GridBackgroundDemo() {
     return (
@@ -13,9 +14,13 @@ export function GridBackgroundDemo() {
             />
             {/* Radial gradient for the container to give a faded look */}
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)] dark:bg-black"></div>
-            <p className="relative z-20 bg-gradient-to-b from-[#b7ab98] to-neutral-800 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-7xl">    
-                Backgrounds
-            </p>
+
+            {/* ----- Hero Text ----- */}
+            <div>
+                <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#b7ab98]dark:from-neutral-800 dark:via-white dark:to-white">
+                    Build amazing websites <br /> at <Cover className="text-[#b7ab98] hover:text-[#eb5939]">warp speed</Cover>
+                </h1>
+            </div>
         </div>
     );
 }

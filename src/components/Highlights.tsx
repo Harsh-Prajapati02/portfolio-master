@@ -10,22 +10,36 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
 import Image from "next/image";
+import { Cover } from "./ui/cover";
 
 
 export function BentoGridThirdDemo() {
     return (
-        <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] p-4 pt-10 pb-10 md:p-0 md:pt-10 md:pb-10">
-            {items.map((item, i) => (
-                <BentoGridItem
-                    key={i}
-                    title={item.title}
-                    description={item.description}
-                    header={item.header}
-                    className={cn("[&>p:text-lg]", item.className)}
-                    icon={item.icon}
-                />
-            ))}
-        </BentoGrid>
+        <div style={{ borderTop: "5px solid #eb5939", borderBottom: "5px solid #eb5939" }}>
+            <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">
+                <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
+                    <Cover className="text-[#b7ab98]">Changelog from my journey</Cover>
+                </h2>
+
+                <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-sm">
+                    I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
+                    a timeline of my journey.
+                </p>
+            </div>
+            <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[20rem] p-4 pt-10 pb-10 lg:p-0 lg:pt-10 lg:pb-10">
+                {items.map((item, i) => (
+                    <BentoGridItem
+                        key={i}
+                        title={item.title}
+                        description={item.description}
+                        header={item.header}
+                        className={cn("[&>p:text-lg]", item.className)}
+                        icon={item.icon}
+                    />
+                ))}
+            </BentoGrid>
+        </div>
+
     );
 }
 

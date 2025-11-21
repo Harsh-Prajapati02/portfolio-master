@@ -34,7 +34,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     return (
         <div
-            className="w-full bg-black dark:bg-neutral-950 font-sans md:px-10"
+            className="w-full bg-black dark:bg-neutral-950 font-sans lg:px-10"
             style={{backgroundColor:"#000000"}}
             ref={containerRef}
         >
@@ -55,18 +55,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                         key={index}
                         className="flex justify-start pt-10 md:pt-10 md:gap-10"
                     >
-                        <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
-                            <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-black dark:bg-black flex items-center justify-center">
-                                <div className="h-4 w-4 rounded-full bg-neutral-800 dark:bg-neutral-800 border border-neutral-700 dark:border-neutral-700 p-2" />
+                        <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-md md:w-full">
+                            <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-neutral-800 dark:bg-black flex items-center justify-center border border-white/[0.2]">
+                                <div className="h-4 w-4 rounded-full bg-neutral-700 dark:bg-neutral-800 border border-white/[0.2] dark:border-neutral-700 p-2" />
                             </div>
-                            <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-[#b7ab98] dark:text-neutral-500 ">
+                            <h3 className="hidden md:block text-xl md:pl-20 md:text-3xl lg:text-4xl font-bold text-[#b7ab98] dark:text-neutral-500 ">
                                 <Cover className="text-[#b7ab98]">{item.title}</Cover>
                             </h3>
                         </div>
 
-                        <div className="relative pl-20 pr-4 md:pl-4 w-full">
+                        <div className="relative pl-20 pr-4 md:pl-0 lg:pl-0 w-full">
                             <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-[#b7ab98] dark:text-neutral-500">
-                                {item.title}
+                                <Cover className="text-[#b7ab98]">{item.title}</Cover>
                             </h3>
                             {item.content}{" "}
                         </div>

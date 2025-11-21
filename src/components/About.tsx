@@ -6,7 +6,7 @@ export function SVGMaskEffectDemo() {
         <div className="flex h-full w-full items-center justify-center overflow-hidden bg-[#000000]" style={{borderTop:"5px solid #eb5939", borderBottom:"5px solid #eb5939"}}>
             <MaskContainer
                 revealText={<>
-                    <p className="mx-auto max-w-4xl text-center text-3xl text-justify p-4 md:p-0 md:text-4xl font-bold text-[#b7ab98] leading-snug tracking-wide">
+                    <p className="mx-auto max-w-4xl text-center text-3xl text-justify p-4 lg:p-0 lg:text-4xl font-bold text-[#b7ab98] leading-snug tracking-wide">
                         <span className="text-[14px]" style={{letterSpacing:"5px"}}>ABOUT ME</span> <br />
                         The first rule of MRR Club is you do not talk about MRR Club. The
                         second rule of MRR Club is you DO NOT talk about MRR Club.
@@ -20,7 +20,7 @@ export function SVGMaskEffectDemo() {
                 }
                 className="h-[40rem] rounded-md border text-center text-white dark:text-black"
             >
-                <p className="mx-auto max-w-4xl text-center text-3xl text-justify p-4 md:p-0 md:text-4xl font-bold text-[#0D0D0D] leading-snug tracking-wide">
+                <p className="mx-auto max-w-4xl text-center text-3xl text-justify p-4 lg:p-0 lg:text-4xl font-bold text-[#0d0d0d] leading-snug tracking-wide">
                     <span className="text-[14px]" style={{letterSpacing:"5px"}}>ABOUT ME</span> <br />
                     The first rule of MRR Club is you do not talk about MRR Club. The
                     second rule of MRR Club is you DO NOT talk about MRR Club.
