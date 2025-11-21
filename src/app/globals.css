@@ -7,6 +7,10 @@
   src: url('../../public/fonts/AVGARDD_2.woff') format('woff');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html.lenis {
   height: auto;
   /* Lenis scroll container ke liye */
@@ -60,5 +64,5 @@ body {
 
 /* Scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #4f46e5;
+  background: #eb5939;
 }

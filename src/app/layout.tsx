@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         style={{ backgroundColor: "#000000" }}
       >
-        <SmoothScroll />   ← Smooth Scroll GLOBAL
+        <SmoothScroll />    {/* ← Smooth Scroll GLOBAL */}
         {children}
       </body>
     </html>

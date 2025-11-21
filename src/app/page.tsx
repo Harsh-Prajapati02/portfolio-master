@@ -1,5 +1,7 @@
 import { SVGMaskEffectDemo } from "@/components/About";
 import { TimelineDemo } from "@/components/Experience";
+import { TextHoverEffectDemo } from "@/components/Footer2";
+import { GridBackgroundDemo } from "@/components/Hero";
 import { BentoGridThirdDemo } from "@/components/Highlights";
 import { FloatingDockDemo } from "@/components/Navbar";
 import { ExpandableCardDemo } from "@/components/Projects";
@@ -9,6 +11,9 @@ export default function Home() {
     <>
       {/* ----- Navbar ----- */}
       <FloatingDockDemo />
+
+      {/* ----- Hero Section ----- */}
+      <GridBackgroundDemo />
 
       {/* ----- About Section ----- */}
       <SVGMaskEffectDemo />
@@ -21,6 +26,9 @@ export default function Home() {
 
       {/* ----- Projects Section ----- */}
       <ExpandableCardDemo />
+
+      {/* ----- Footer 2 ----- */}
+      <TextHoverEffectDemo />
     </>
   );
 }
