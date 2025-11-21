@@ -87,7 +87,7 @@ export function ExpandableCardDemo() {
                                     <div className="">
                                         <motion.h3
                                             layoutId={`title-${active.title}-${id}`}
-                                            className="font-medium text-neutral-100 dark:text-neutral-200 text-base"
+                                            className="font-medium text-[#b7ab98] dark:text-neutral-200 text-base"
                                         >
                                             {active.title}
                                         </motion.h3>
@@ -99,17 +99,31 @@ export function ExpandableCardDemo() {
                                         </motion.p>
                                     </div>
 
-                                    <motion.a
-                                        layout
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        exit={{ opacity: 0 }}
-                                        href={active.ctaLink}
-                                        target="_blank"
-                                        className="px-4 py-3 text-sm rounded-full font-bold bg-green-500 text-white"
-                                    >
-                                        {active.ctaText}
-                                    </motion.a>
+                                    <div className="flex">
+                                        <motion.a
+                                            layout
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0 }}
+                                            href={active.ctaLink}
+                                            target="_blank"
+                                            className="px-6 py-3 me-2 text-sm rounded-full font-bold bg-[#eb5939] text-white"
+                                        >
+                                            {active.ctaText}
+                                        </motion.a>
+
+                                        <motion.a
+                                            layout
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0 }}
+                                            href={active.ctaLink}
+                                            target="_blank"
+                                            className="px-6 py-3 text-sm rounded-full font-bold bg-[#eb5939] text-white"
+                                        >
+                                            {active.ctaText}
+                                        </motion.a>
+                                    </div>
                                 </div>
                                 <div className="pt-4 relative px-4">
                                     <motion.div
@@ -130,9 +144,9 @@ export function ExpandableCardDemo() {
                 ) : null}
             </AnimatePresence>
 
-            <div className="pt-15 ps-4 md:ps-41">
-                <h2 className="text-2xl md:text-5xl text-[#b7ab98] dark:text-white max-w-4xl mb-4">
-                    <Cover className="text-[#b7ab98]">Featured Projects</Cover>
+            <div className="max-w-7xl mx-auto py-20 px-4 pb-0 md:px-8 lg:px-10">
+                <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
+                    <Cover className="text-[#b7ab98]">Changelog from my journey</Cover>
                 </h2>
 
                 <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-sm">
@@ -147,7 +161,7 @@ export function ExpandableCardDemo() {
                         layoutId={`card-${card.title}-${id}`}
                         key={card.title}
                         onClick={() => setActive(card)}
-                        className="p-4 flex flex-col border border-white/[0.1] bg-neutral-900 hover:bg-neutral-800 dark:hover:bg-neutral-800 rounded-xl cursor-pointer"
+                        className="p-4 flex flex-col bg-neutral-900 border border-white/[0.1] hover:bg-neutral-800 dark:hover:bg-neutral-800 rounded-xl cursor-pointer"
                     >
                         <div className="flex gap-4 flex-col  w-full">
                             <motion.div layoutId={`image-${card.title}-${id}`}>
@@ -218,7 +232,7 @@ const cards = [
     {
         description: "Lana Del Rey",
         title: "Summertime Sadness",
-        src: "https://assets.aceternity.com/templates/startup-1.webp",
+        src: "https://assets.aceternity.com/pro/hero-sections.png",
         ctaText: "Visit",
         ctaLink: "https://ui.aceternity.com/templates",
         content: () => {
