@@ -2,7 +2,9 @@ import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
 export function TextHoverEffectDemo() {
     return (
-        <div className="h-[10rem] flex items-center justify-center md:h-[25rem]" style={{ borderTop: "5px solid #eb5939" }}>
+        <div className="relative h-[10rem] flex items-center justify-center md:h-[25rem]" style={{ borderTop: "5px solid #eb5939" }}>
+            {/* Radial gradient for the container to give a faded look */}
+                <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)] dark:bg-black"></div>
             <TextHoverEffect text="HARSH" />
         </div>
     );
