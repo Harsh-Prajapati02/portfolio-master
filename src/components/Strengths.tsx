@@ -198,7 +198,7 @@ export const SkeletonThree = () => (
 // ===============================
 export const SkeletonFour = () => (
     <div className="h-60 flex flex-col items-center relative bg-transparent mt-10">
-        <Globe className="absolute -right-10 -bottom-80" />
+        <Globe className="absolute -right-10 -bottom-70" />
     </div>
 );
 
