@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Cover } from "./ui/cover";
-// import { EncryptedText } from "./ui/encrypted-text";
 import { SpotlightPreview } from "./SpotlightPreview";
+import { EncryptedText } from "./ui/encrypted-text";
 
 export function GridBackgroundDemo() {
     return (
@@ -21,12 +21,12 @@ export function GridBackgroundDemo() {
                 {/* ----- Hero Text ----- */}
                 <div style={{ zIndex: "999" }}>
                     <p className="mx-auto max-w-lg py-0 text-center text-xl">
-                        {/* <EncryptedText
+                        <EncryptedText
                             text="Welcome to the Matrix, Neo."
                             encryptedClassName="text-[#b7ab98]"
                             revealedClassName="dark:text-white text-[#b7ab98]"
                             revealDelayMs={50}
-                        /> */}
+                        />
                     </p>
                     <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-3 bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#b7ab98] dark:from-neutral-800 dark:via-white dark:to-white">
                         Build amazing websites <br /> at <Cover className="text-[#b7ab98] hover:text-[#eb5939]">warp speed</Cover>
