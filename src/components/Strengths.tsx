@@ -50,7 +50,7 @@ export function FeaturesSectionDemo() {
         <>
             <div className="max-w-7xl mx-auto py-20 px-4 pb-0 md:px-8 lg:px-10">
                 <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
-                    <Cover className="text-[#b7ab98]">Packed with thousands of features</Cover>
+                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">Packed with thousands of features</Cover>
                 </h2>
 
                 <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-xxl">
@@ -95,7 +95,7 @@ const FeatureCard = ({
 );
 
 const FeatureTitle = ({ children }: { children?: React.ReactNode }) => (
-    <p className="text-xl md:text-2xl font-semibold text-neutral-200 dark:text-white">
+    <p className="text-xl md:text-2xl font-semibold text-[#b7ab98] hover:text-[#eb5939] dark:text-white">
         {children}
     </p>
 );
@@ -180,7 +180,7 @@ export const SkeletonTwo = () => {
 // SKELETON 3
 // ===============================
 export const SkeletonThree = () => (
-    <div className="p-9 border rounded-3xl dark:bg-neutral-900 bg-neutral-900 border-neutral-800 dark:border-neutral-800">
+    <div className="p-8 border rounded-3xl dark:bg-neutral-900 bg-neutral-900 border-neutral-800 dark:border-neutral-800">
         <Compare
             firstImage="https://assets.aceternity.com/code-problem.png"
             secondImage="https://assets.aceternity.com/code-solution.png"

@@ -40,7 +40,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         >
             <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">
                 <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
-                    <Cover className="text-[#b7ab98]">Changelog from my journey</Cover>
+                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">Changelog from my journey</Cover>
                 </h2>
 
                 <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-sm">
@@ -60,13 +60,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                                 <div className="h-4 w-4 rounded-full bg-neutral-700 dark:bg-neutral-800 border border-white/[0.2] dark:border-neutral-700 p-2" />
                             </div>
                             <h3 className="hidden md:block text-xl md:pl-20 md:text-3xl lg:text-3xl font-bold text-[#b7ab98] dark:text-neutral-500 ">
-                                <Cover className="text-[#b7ab98]">{item.title}</Cover>
+                                <Cover className="text-[#b7ab98] hover:text-[#eb5939]">{item.title}</Cover>
                             </h3>
                         </div>
 
                         <div className="relative pl-20 pr-4 md:pl-0 lg:pl-5 w-full">
                             <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-[#b7ab98] dark:text-neutral-500">
-                                <Cover className="text-[#b7ab98]">{item.title}</Cover>
+                                <Cover className="text-[#b7ab98] hover:text-[#eb5939]">{item.title}</Cover>
                             </h3>
                             {item.content}{" "}
                         </div>

@@ -60,6 +60,10 @@ body {
   font-family: 'Avant Garde Book BT';
 }
 
+.section-header:hover {
+  color: #eb5939;
+}
+
 /* Scrollbar width */
 ::-webkit-scrollbar {
   width: 8px;
