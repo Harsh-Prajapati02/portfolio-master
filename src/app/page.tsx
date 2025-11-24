@@ -1,4 +1,7 @@
+'use client'
+
 import { SVGMaskEffectDemo } from "@/components/About";
+import { AppleCardsCarouselDemo } from "@/components/Achievements";
 import { TimelineDemo } from "@/components/Experience";
 import { TextHoverEffectDemo } from "@/components/Footer2";
 import { GridBackgroundDemo } from "@/components/Hero";
@@ -9,8 +12,18 @@ import { FeaturesSectionDemo2 } from "@/components/Services";
 import { BentoGridDemo } from "@/components/Skills";
 import { FeaturesSectionDemo } from "@/components/Strengths";
 
+import { LoaderThree } from "@/components/ui/loader";
+import { useEffect, useState } from "react";
+
 export default function Home() {
-  return (
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1500);
+  }, []);
+
+  return loading ? <LoaderThree /> : (
     <>
       {/* ----- Navbar ----- */}
       <FloatingDockDemo />
@@ -35,6 +48,9 @@ export default function Home() {
 
       {/* ----- Projects Section ----- */}
       <ExpandableCardDemo />
+
+      {/* ----- Achievements Section */}
+      <AppleCardsCarouselDemo />
 
       {/* ----- Services Section ----- */}
       <FeaturesSectionDemo2 />

@@ -73,6 +73,7 @@ body {
 ::-webkit-scrollbar-track {
   background: #2c2c2c;
   /* Track color */
+  border-radius: 10px;
 }
 
 /* Scrollbar thumb (the draggable part) */
