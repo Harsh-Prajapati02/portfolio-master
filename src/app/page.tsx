@@ -20,7 +20,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1500);
+    setTimeout(() => setLoading(false), 1850);
   }, []);
 
   return loading ? <LoaderThree /> : (
