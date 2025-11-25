@@ -3,7 +3,7 @@ import "./globals.css";
 import SmoothScroll from "@/components/smooth-scroll";
 
 export const metadata: Metadata = {
-  title: "Harsh | Full-Stack Developer Portfolio",
+  title: "Harsh. | Full Stack Developer Portfolio",
   description: "A modern, fast, and visually polished portfolio showcasing my full-stack projects, UI/UX work, technical expertise, and professional journey.",
   icons: {
     icon: "/favicon.ico"
