@@ -204,7 +204,7 @@ export const Card = ({
                         <motion.div
                             ref={containerRef}
                             layoutId={layout ? `card-${card.title}` : undefined}
-                            className="relative z-[60] mx-auto my-10 h-fit max-w-5xl rounded-3xl bg-neutral-900 p-4 pb-0 font-sans lg:p-10 lg:pb-0 dark:bg-neutral-900"
+                            className="relative z-[60] mx-auto my-10 h-fit max-w-5xl rounded-3xl bg-neutral-900 p-4 pb-0  lg:p-10 lg:pb-0 dark:bg-neutral-900"
                         >
                             <button
                                 className="sticky top-4 right-0 ml-auto flex h-8 w-8 items-center justify-center rounded-full bg-white dark:bg-white"
@@ -231,10 +231,10 @@ export const Card = ({
             >
                 <div className="pointer-events-none absolute inset-x-0 top-0 z-30 h-full bg-gradient-to-b from-black/50 via-transparent to-transparent" />
                 <div className="relative z-40 p-8">
-                    <motion.p className="text-left font-sans text-sm font-medium text-white lg:text-base">
+                    <motion.p className="text-left text-sm font-medium text-white lg:text-base">
                         {card.category}
                     </motion.p>
-                    <motion.p className="mt-2 max-w-xs text-left font-sans text-xl font-semibold [text-wrap:balance] text-white lg:text-3xl">
+                    <motion.p className="mt-2 max-w-xs text-left text-xl font-semibold [text-wrap:balance] text-white lg:text-3xl">
                         {card.title}
                     </motion.p>
                 </div>

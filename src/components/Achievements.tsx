@@ -34,7 +34,7 @@ const DummyContent = () => {
                         key={"dummy-content" + index}
                         className="bg-[#0d0d0d] p-8 md:p-10 rounded-3xl mb-4"
                     >
-                        <p className="text-[#b7ab98] text-base lg:text-2xl font-sans max-w-4xl">
+                        <p className="text-[#b7ab98] text-base lg:text-2xl max-w-4xl">
                             <span className="font-bold [#b7ab98]">
                                 The first rule of Apple club is that you boast about Apple club.
                             </span>{" "}
