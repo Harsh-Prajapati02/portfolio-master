@@ -16,7 +16,7 @@ export function GridBackgroundDemo() {
                     "absolute inset-0",
                     "[background-size:100px_100px]",
                     "dark:[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-                    "[background-image:linear-gradient(to_right,#262626_0.5px,transparent_1px),linear-gradient(to_bottom,#262626_0.5px,transparent_1px)]",
+                    "[background-image:linear-gradient(to_right,#262626_0.1px,transparent_1px),linear-gradient(to_bottom,#262626_0.1px,transparent_1px)]",
                 )}
             />
             {/* Radial gradient for the container to give a faded look */}
@@ -41,18 +41,24 @@ export function GridBackgroundDemo() {
                     <LayoutTextFlip
                         text={
                             <>
-                                Hi ! I'm{" "}
+                                Hi ! I{"'"}m{" "}
                                 <Cover className="text-[#b7ab98] hover:text-[#b7ab98] bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#eb5939]">
                                     Harsh Prajapati
                                 </Cover>
-                                , a{" "}
-
+                                , a
                             </>
                         }
                         words={[
                             "Full Stack Developer",
+                            "Software Developer",
+                            "MERN Stack Developer",
+                            "PERN Stack Developer",
+                            "Back-End Developer",
+                            "Node.js Developer",
                             "Front-End Developer",
-                            "BackEnd Developer",
+                            "React.js Developer",
+                            "Next.js Developer",
+                            "Web Developer",
                             "Web Designer",
                         ]}
                     />
