@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/smooth-scroll";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Harsh | Full-Stack Developer Portfolio",
   description: "A modern, fast, and visually polished portfolio showcasing my full-stack projects, UI/UX work, technical expertise, and professional journey.",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({
@@ -24,9 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
+        className="antialiased"
         style={{ backgroundColor: "#000000" }}
       >
         <SmoothScroll />    {/* ← Smooth Scroll GLOBAL */}
