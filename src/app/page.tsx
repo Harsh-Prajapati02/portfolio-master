@@ -2,6 +2,7 @@
 
 import { SVGMaskEffectDemo } from "@/components/About";
 import { AppleCardsCarouselDemo } from "@/components/Achievements";
+import Approach from "@/components/Approach";
 import { TimelineDemo } from "@/components/Experience";
 import { TextHoverEffectDemo } from "@/components/Footer2";
 import { GridBackgroundDemo } from "@/components/Hero";
@@ -54,6 +55,9 @@ export default function Home() {
 
       {/* ----- Services Section ----- */}
       <FeaturesSectionDemo2 />
+
+      {/* ----- My Approach Section ----- */}
+      <Approach />
 
       {/* ----- Footer 2 ----- */}
       <TextHoverEffectDemo />
