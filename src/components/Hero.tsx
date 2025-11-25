@@ -23,7 +23,7 @@ export function GridBackgroundDemo() {
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)] dark:bg-black"></div>
 
             {/* ----- Hero Text ----- */}
-            <div style={{ zIndex: "999" }} className="px-16 md:px-0">
+            <div style={{ zIndex: "999" }} className="px-10 md:px-0">
                 <p className="mx-auto max-w-lg py-0 text-center text-[12px] md:text-[16px]" style={{letterSpacing:"3px"}}>
                     <EncryptedText
                         text="DYNAMIC WEB MAGIC WITH FULL STACK EXPERTISE"
@@ -65,7 +65,7 @@ export function GridBackgroundDemo() {
                     {/* <span className="text-2xl text-[#b7ab98] font-bold tracking-tight drop-shadow-lg md:text-2xl" style={{letterSpacing:"2px"}}>based in India.</span> */}
                 </motion.div>
 
-                <div className="pt-5 md:p-0" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+                <div className="pt-5 md:pt-10" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
                     <a href="#about">
                         <MagicButton
                             title="Show my work"

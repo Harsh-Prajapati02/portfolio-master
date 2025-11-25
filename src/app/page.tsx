@@ -4,6 +4,7 @@ import { SVGMaskEffectDemo } from "@/components/About";
 import { AppleCardsCarouselDemo } from "@/components/Achievements";
 import Approach from "@/components/Approach";
 import { TimelineDemo } from "@/components/Experience";
+import Footer from "@/components/Footer";
 import { TextHoverEffectDemo } from "@/components/Footer2";
 import { GridBackgroundDemo } from "@/components/Hero";
 import { BentoGridThirdDemo } from "@/components/Highlights";
@@ -58,6 +59,9 @@ export default function Home() {
 
       {/* ----- My Approach Section ----- */}
       <Approach />
+
+      {/* ----- Footer ----- */}
+      <Footer />
 
       {/* ----- Footer 2 ----- */}
       <TextHoverEffectDemo />

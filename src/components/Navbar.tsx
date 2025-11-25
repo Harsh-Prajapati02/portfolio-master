@@ -71,7 +71,7 @@ export function FloatingDockDemo() {
         },
     ];
     return (
-        <div className="flex items-center justify-center h-[0rem] w-full">
+        <div className="flex items-center justify-center h-[0rem] w-full" style={{zIndex:"999"}}>
             <FloatingDock
                 // mobileClassName="translate-y-20" // only for demo, remove for production
                 items={links}
