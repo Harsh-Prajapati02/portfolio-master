@@ -21,7 +21,7 @@ export function GridBackgroundDemo() {
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)] dark:bg-black"></div>
 
             {/* ----- Hero Text ----- */}
-            <div style={{ zIndex: "999" }} className="px-16">
+            <div style={{ zIndex: "999" }} className="px-16 md:px-0">
                 <p className="mx-auto max-w-lg py-0 text-center text-[12px] md:text-[16px]">
                     <EncryptedText
                         text="DYNAMIC WEB MAGIC WITH FULL STACK EXPERTISE"
@@ -30,15 +30,30 @@ export function GridBackgroundDemo() {
                         revealDelayMs={50}
                     />
                 </p>
-                <h1 className="text-5xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-3 bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#b7ab98] dark:from-neutral-800 dark:via-white dark:to-white tracking-wide" style={{lineHeight:"80px"}}>
+                <h1 className="text-5xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-3 bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#b7ab98] dark:from-neutral-800 dark:via-white dark:to-white tracking-wide leading-13 md:leading-12 lg:leading-18">
                     Transforming Concepts into <br /> Seamless Digital Solutions
                     {/* <Cover className="text-[#b7ab98] hover:text-[#eb5939]"></Cover> */}
                 </h1>
                 <motion.div className="relative mx-4 my-0 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row">
                     <LayoutTextFlip
-                        text="Hi ! I'm Harsh, a "
-                        words={["Full Stack Developer", "Front-End Developer", "BackEnd Developer", "Web Designer"]}
+                        text={
+                            <>
+                                Hi ! I'm{" "}
+                                <Cover className="text-[#b7ab98] hover:text-[#eb5939]">
+                                    Harsh Prajapati
+                                </Cover>
+                                , a{" "}
+                                
+                            </>
+                        }
+                        words={[
+                            "Full Stack Developer",
+                            "Front-End Developer",
+                            "BackEnd Developer",
+                            "Web Designer",
+                        ]}
                     />
+                    {/* <span className="text-2xl text-[#b7ab98] font-bold tracking-tight drop-shadow-lg md:text-2xl" style={{letterSpacing:"2px"}}>based in India.</span> */}
                 </motion.div>
             </div>
         </div>

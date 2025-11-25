@@ -8,7 +8,7 @@ export const LayoutTextFlip = ({
     words = ["Landing Pages", "Component Blocks", "Page Sections", "3D Shaders"],
     duration = 3000,
 }: {
-    text: string;
+    text: React.ReactNode;
     words: string[];
     duration?: number;
 }) => {
@@ -27,6 +27,7 @@ export const LayoutTextFlip = ({
             <motion.span
                 layoutId="subtext"
                 className="text-2xl text-[#b7ab98] font-bold tracking-tight drop-shadow-lg md:text-2xl"
+                style={{ letterSpacing: "1px" }}
             >
                 {text}
             </motion.span>
