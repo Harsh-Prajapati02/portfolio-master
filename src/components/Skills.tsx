@@ -33,6 +33,7 @@ export function Skills() {
                         description={item.description}
                         header={item.header}
                         icon={item.icon}
+                        className="hover:scale-102 hover:shadow-xl transition-transform duration-300 overflow-y-auto"
                     />
                 ))}
             </BentoGrid>
@@ -50,7 +51,7 @@ const SkillGrid = ({ skills }: { skills: string[] }) => (
                     width={100}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
-                    className="h-7 w-auto rounded-[5px] border border-white/[0.2]"
+                    className="h-7 w-auto rounded-[5px] border border-white/[0.2] hover:scale-110 hover:shadow-xl transition-transform duration-300"
                 />
             </div>
         ))}
