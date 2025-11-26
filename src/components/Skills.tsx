@@ -25,7 +25,7 @@ export function Skills() {
                 </p>
             </div>
 
-            <BentoGrid className="max-w-6xl mx-auto p-4 pt-0 pb-10 lg:p-0 lg:pt-0 lg:pb-10">
+            <BentoGrid className="max-w-6xl mx-auto p-4 pt-0 pb-10 lg:p-0 lg:pt-0 lg:pb-15">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}
