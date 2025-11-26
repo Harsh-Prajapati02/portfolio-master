@@ -1,7 +1,7 @@
 import { Timeline } from "@/components/ui/timeline";
 import Image from "next/image";
 
-export function TimelineDemo() {
+export function Experience() {
     const data = [
         {
             title: "July 2025 - Oct 2025",

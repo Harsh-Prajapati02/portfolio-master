@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 import { Cover } from "./ui/cover";
 
-const Approach = () => {
+export const Approach = () => {
   return (
     <section className="w-full">
       <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">
@@ -64,8 +64,6 @@ const Approach = () => {
     </section>
   );
 };
-
-export default Approach;
 
 const Card = ({
   title,

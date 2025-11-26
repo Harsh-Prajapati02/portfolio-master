@@ -6,7 +6,7 @@ import { useOutsideClick } from "@/hooks/use-outside-click";
 import Image from "next/image";
 import { Cover } from "./ui/cover";
 
-export function ExpandableCardDemo() {
+export function Projects() {
     const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
         null
     );

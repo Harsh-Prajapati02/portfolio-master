@@ -4,7 +4,7 @@ import { socialMedia } from "@/data";
 import MagicButton from "../components/ui/MagicButton";
 import Image from "next/image";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="relative top-10 md:top-40 lg:top-30 max-w-7xl mx-auto pb-0 px-4" id="contact" style={{zIndex:"1"}}>
       <div className="flex flex-col items-center justify-center">
@@ -46,5 +46,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

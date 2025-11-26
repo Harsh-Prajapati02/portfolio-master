@@ -9,7 +9,7 @@ import {
 } from "@tabler/icons-react";
 import { Cover } from "./ui/cover";
 
-export function BentoGridDemo() {
+export function Skills() {
     return (
         <div style={{ borderTop: "5px solid #eb5939", borderBottom: "5px solid #eb5939" }}>
             <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">

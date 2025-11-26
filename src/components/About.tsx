@@ -1,7 +1,7 @@
 "use client";
 import { MaskContainer } from "@/components/ui/svg-mask-effect";
 
-export function SVGMaskEffectDemo() {
+export function About() {
     return (
         <div className="flex h-full w-full items-center justify-center overflow-hidden bg-[#000000]" style={{ borderTop: "5px solid #eb5939" }}>
             <MaskContainer

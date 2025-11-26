@@ -4,7 +4,7 @@ import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 // import Image from "next/image";
 import { Cover } from "./ui/cover";
 
-export function AppleCardsCarouselDemo() {
+export function Achievements() {
     const cards = data.map((card, index) => (
         <Card key={card.src} card={card} index={index} layout={true} />
     ));

@@ -11,7 +11,7 @@ import {
     IconTerminal2,
 } from "@tabler/icons-react";
 
-export function FeaturesSectionDemo2() {
+export function Services() {
     const features = [
         {
             title: "Built for developers",

@@ -1,6 +1,6 @@
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
-export function TextHoverEffectDemo() {
+export function Footer2() {
     return (
         <div className="relative h-[10rem] flex items-center justify-center md:h-[25rem]">
             {/* Radial gradient for the container to give a faded look */}

@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 
-export function GridBackgroundDemo() {
+export function Hero() {
     return (
         <div className="relative flex h-[44rem] w-full items-center justify-center bg-black dark:bg-black">
             <SpotlightPreview />

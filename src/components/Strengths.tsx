@@ -13,7 +13,7 @@ import { Compare } from "./ui/compare";
 // ===============================
 // MAIN COMPONENT
 // ===============================
-export function FeaturesSectionDemo() {
+export function Strengths() {
     const features = [
         {
             title: "Track issues effectively",

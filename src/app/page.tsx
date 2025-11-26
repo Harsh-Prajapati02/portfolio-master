@@ -1,18 +1,18 @@
 'use client'
 
-import { SVGMaskEffectDemo } from "@/components/About";
-import { AppleCardsCarouselDemo } from "@/components/Achievements";
-import Approach from "@/components/Approach";
-import { TimelineDemo } from "@/components/Experience";
-import Footer from "@/components/Footer";
-import { TextHoverEffectDemo } from "@/components/Footer2";
-import { GridBackgroundDemo } from "@/components/Hero";
-import { BentoGridThirdDemo } from "@/components/Highlights";
-import { FloatingDockDemo } from "@/components/Navbar";
-import { ExpandableCardDemo } from "@/components/Projects";
-import { FeaturesSectionDemo2 } from "@/components/Services";
-import { BentoGridDemo } from "@/components/Skills";
-import { FeaturesSectionDemo } from "@/components/Strengths";
+import { About } from "@/components/About";
+import { Achievements } from "@/components/Achievements";
+import { Approach } from "@/components/Approach";
+import { Experience } from "@/components/Experience";
+import { Footer } from "@/components/Footer";
+import { Footer2 } from "@/components/Footer2";
+import { Hero } from "@/components/Hero";
+import { Highlights } from "@/components/Highlights";
+import { Navbar } from "@/components/Navbar";
+import { Projects } from "@/components/Projects";
+import { Services } from "@/components/Services";
+import { Skills } from "@/components/Skills";
+import { Strengths } from "@/components/Strengths";
 
 import { LoaderThree } from "@/components/ui/loader";
 import { useEffect, useState } from "react";
@@ -28,34 +28,34 @@ export default function Home() {
   return loading ? <LoaderThree /> : (
     <>
       {/* ----- Navbar ----- */}
-      <FloatingDockDemo />
+      <Navbar />
 
       {/* ----- Hero Section ----- */}
-      <GridBackgroundDemo />
+      <Hero />
 
       {/* ----- About Section ----- */}
-      <SVGMaskEffectDemo />
+      <About />
 
       {/* ----- Highlight Section ----- */}
-      <BentoGridThirdDemo />
+      <Highlights />
 
       {/* ----- Skills Section ----- */}
-      <BentoGridDemo />
+      <Skills />
 
       {/* ----- Strengths Section ----- */}
-      <FeaturesSectionDemo />
+      <Strengths />
 
       {/* ----- Experience Section ----- */}
-      <TimelineDemo />
+      <Experience />
 
       {/* ----- Projects Section ----- */}
-      <ExpandableCardDemo />
+      <Projects />
 
       {/* ----- Achievements Section */}
-      <AppleCardsCarouselDemo />
+      <Achievements />
 
       {/* ----- Services Section ----- */}
-      <FeaturesSectionDemo2 />
+      <Services />
 
       {/* ----- My Approach Section ----- */}
       <Approach />
@@ -64,7 +64,7 @@ export default function Home() {
       <Footer />
 
       {/* ----- Footer 2 ----- */}
-      <TextHoverEffectDemo />
+      <Footer2 />
     </>
   );
 }

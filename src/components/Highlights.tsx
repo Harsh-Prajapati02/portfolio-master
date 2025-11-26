@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "@/lib/utils";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import {
@@ -13,7 +14,7 @@ import Image from "next/image";
 import { Cover } from "./ui/cover";
 
 
-export function BentoGridThirdDemo() {
+export function Highlights() {
     return (
         <div style={{ borderTop: "5px solid #eb5939" }}>
             <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">
