@@ -16,31 +16,31 @@ import { Compare } from "./ui/compare";
 export function Strengths() {
     const features = [
         {
-            title: "Track issues effectively",
+            title: "Full-Stack Development Expertise",
             description:
-                "Track and manage your project issues with ease using our intuitive interface.",
+                "Proficient in PERN and MERN stack (PostgreSQL, Express, React, Node.js, MongoDB) and building scalable web applications from scratch.",
             skeleton: <SkeletonOne />,
             className:
                 "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
         },
         {
-            title: "Capture pictures with AI",
+            title: "Advanced Frontend Engineering",
             description:
-                "Capture stunning photos effortlessly using our advanced AI technology.",
+                "Skilled in React, Next.js, Redux, Tailwind CSS, and ShadCN/UI for modern, responsive, and performant interfaces.",
             skeleton: <SkeletonTwo />,
             className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
         },
         {
-            title: "",
+            title: "Backend & Database Proficiency",
             description:
-                "A comparison component between two images, slide or drag to compare",
+                "Experience in Node.js, Express, MongoDB, PostgreSQL, authentication, REST APIs, and ORM for robust backend systems.",
             skeleton: <SkeletonThree />,
             className: "col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800",
         },
         {
-            title: "Deploy in seconds",
+             title: "Continuous Learning & Adaptability",
             description:
-                "With our blazing fast, state-of-the-art cloud services (read AWS), you can deploy your model in seconds.",
+                "Quickly adapts to new technologies, consistently upgrading skills in advanced backend concepts, database design, and full-stack best practices.",
             skeleton: <SkeletonFour />,
             className: "col-span-1 lg:col-span-3 border-b lg:border-none",
         },
@@ -48,13 +48,17 @@ export function Strengths() {
 
     return (
         <>
-            <div className="max-w-7xl mx-auto py-20 px-4 pb-0 md:px-8 lg:px-10">
+            <div className="max-w-7xl mx-auto py-15 px-4 pb-0 md:px-8 lg:px-10">
                 <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
-                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">Packed with thousands of features</Cover>
+                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">
+                        Core Strengths & Expertise
+                    </Cover>
                 </h2>
 
-                <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-xxl">
-                    From Image generation to video generation, Everything AI has APIs for literally everything. It can even create this website copy for you.
+                <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-xl">
+                    Combining full-stack technical expertise with strong problem-solving,
+                    time management, and collaboration skills, I deliver high-quality web
+                    solutions and continuously enhance my professional capabilities.
                 </p>
             </div>
             <div className="relative z-20 max-w-6xl mx-auto">
@@ -101,7 +105,7 @@ const FeatureTitle = ({ children }: { children?: React.ReactNode }) => (
 );
 
 const FeatureDescription = ({ children }: { children?: React.ReactNode }) => (
-    <p className="text-sm md:text-base text-neutral-400 dark:text-neutral-300 my-2 max-w-sm">
+    <p className="text-sm md:text-base text-neutral-400 dark:text-neutral-300 my-2 mb-4 max-w-sm">
         {children}
     </p>
 );
