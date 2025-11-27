@@ -133,7 +133,7 @@ const SkeletonTwo = () => {
                     style={{
                         maxWidth: Math.random() * (100 - 40) + 40 + "%",
                     }}
-                    className="flex flex-row rounded-full border border-white/[0.2] dark:border-white/[0.2] p-2 items-center space-x-2 bg-neutral-900 dark:bg-black w-full h-4"
+                    className="flex flex-row rounded-full border border-white/[0.2] dark:border-white/[0.2] p-2 items-center space-x-2 bg-[#0d0d0d] dark:bg-black w-full h-4"
                 ></motion.div>
             ))}
         </motion.div>
@@ -199,7 +199,7 @@ const SkeletonFour = () => {
         >
             <motion.div
                 variants={first}
-                className="h-full w-1/3 rounded-2xl bg-neutral-900 p-4 dark:bg-black dark:border-white/[0.1] border border-white/[0.2] flex flex-col items-center justify-center"
+                className="h-full w-1/3 rounded-2xl bg-[#0d0d0d] p-4 dark:bg-black dark:border-white/[0.1] border border-white/[0.2] flex flex-col items-center justify-center"
             >
                 <Image
                     src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
@@ -215,7 +215,7 @@ const SkeletonFour = () => {
                     Delusional
                 </p>
             </motion.div>
-            <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-neutral-900 p-4 dark:bg-black dark:border-white/[0.1] border border-white/[0.2] flex flex-col items-center justify-center">
+            <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-[#0d0d0d] p-4 dark:bg-black dark:border-white/[0.1] border border-white/[0.2] flex flex-col items-center justify-center">
                 <Image
                     src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
                     alt="avatar"
@@ -232,7 +232,7 @@ const SkeletonFour = () => {
             </motion.div>
             <motion.div
                 variants={second}
-                className="h-full w-1/3 rounded-2xl bg-neutral-900 p-4 dark:bg-black dark:border-white/[0.1] border border-white/[0.2] flex flex-col items-center justify-center"
+                className="h-full w-1/3 rounded-2xl bg-[#0d0d0d] p-4 border border-white/[0.2] flex flex-col items-center justify-center"
             >
                 <Image
                     src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
