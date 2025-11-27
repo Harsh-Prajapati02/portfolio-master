@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer
-      className="relative top-10 md:top-40 lg:top-30 max-w-7xl mx-auto pb-0 px-4"
+      className="relative top-15 md:top-45 lg:top-45 max-w-7xl mx-auto pb-0 px-4"
       id="contact"
       style={{ zIndex: "1" }}
     >

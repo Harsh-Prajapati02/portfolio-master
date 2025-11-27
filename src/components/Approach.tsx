@@ -7,7 +7,7 @@ import { Cover } from "./ui/cover";
 export const Approach = () => {
   return (
     <section className="w-full">
-      <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto py-15 pb-10 px-4 md:px-8 lg:px-10">
         <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] max-w-4xl">
           <Cover className="text-[#b7ab98] hover:text-[#eb5939]">My Approach</Cover>
         </h2>
@@ -16,7 +16,7 @@ export const Approach = () => {
           A structured, transparent, and collaborative process that ensures your website is built with clarity, precision, and purpose—from the first idea to the final launch.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl m-auto gap-4 pt-0 pb-15 p-4 xl:p-0 xl:pt-5 xl:pb-20">
+      <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl m-auto gap-4 pt-0 pb-15 p-4 xl:p-0 xl:pt-5 xl:pb-0">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
