@@ -26,7 +26,7 @@ export function Navbar() {
                 // <IconTerminal2 className="h-full w-full text-[#b7ab98] dark:text-neutral-300" />
                 <IconUserFilled  className="h-full w-full text-[#b7ab98] dark:text-neutral-300" />
             ),
-            href: "/about",
+            href: "#about",
         },
         {
             title: "Components",
