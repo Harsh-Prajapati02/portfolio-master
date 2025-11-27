@@ -73,6 +73,7 @@ const items = [
                     "c++",
                     "typescript",
                     "python",
+                    "sql"
                 ]}
             />
         ),
@@ -114,6 +115,7 @@ const items = [
                     "firebase",
                     "postgresql",
                     "nodemailer",
+                    "jwt",
                     "oracle",
                 ]}
             />
@@ -148,7 +150,7 @@ const items = [
                     "auth0",
                     "firebaseauth",
                     "bcrypt",
-                    "jwt",
+                    "jwttokens",
                     "clerk",
                     "canva",
                     "notion",
@@ -159,11 +161,12 @@ const items = [
         icon: <IconShieldCheck className="h-5 w-5 text-neutral-500" />,
     },
     {
-        title: "Build Tools & Package Managers",
+        title: "Development Tools & Package Managers",
         description: "Build systems, bundlers, and package managers that streamline development.",
         header: (
             <SkillGrid
                 skills={[
+                    "vscode",
                     "npm",
                     "yarn",
                     "pnpm",
