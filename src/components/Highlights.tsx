@@ -3,31 +3,33 @@
 import { cn } from "@/lib/utils";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import {
-    IconBoxAlignRightFilled,
-    IconClipboardCopy,
-    IconFileBroken,
-    IconSignature,
-    IconTableColumn,
+    IconSchool,
+    IconCode,
+    IconBrandReact,
+    IconBrandNextjs,
+    IconDatabase,
+    IconCertificate,
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
 import Image from "next/image";
 import { Cover } from "./ui/cover";
 
-
 export function Highlights() {
     return (
         <div style={{ borderTop: "5px solid #eb5939" }}>
-            <div className="max-w-7xl mx-auto py-20 pb-10 px-4 md:px-8 lg:px-10">
+            <div className="max-w-7xl mx-auto py-15 pb-10 px-4 md:px-8 lg:px-10">
                 <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
-                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">Changelog from my journey</Cover>
+                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">
+                        Key Highlights From My Journey
+                    </Cover>
                 </h2>
 
                 <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-sm">
-                    I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-                    a timeline of my journey.
+                    A snapshot of the milestones that shaped my growth as a Full Stack Developer.
                 </p>
             </div>
-            <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[20rem] p-4 pt-10 pb-10 lg:p-0 lg:pt-10 lg:pb-10">
+
+            <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[20rem] p-4 pt-0 pb-10 lg:p-0 lg:pt-0 lg:pb-15">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}
@@ -40,7 +42,6 @@ export function Highlights() {
                 ))}
             </BentoGrid>
         </div>
-
     );
 }
 
@@ -169,6 +170,7 @@ const SkeletonThree = () => {
         </motion.div>
     );
 };
+
 const SkeletonFour = () => {
     const first = {
         initial: {
@@ -209,12 +211,13 @@ const SkeletonFour = () => {
                     className="rounded-full h-10 w-10"
                 />
                 <p className="sm:text-sm text-xs text-center font-semibold text-[#b7ab98] mt-4">
-                    Just code in Vanilla Javascript
+                    Completed Frontend Training
                 </p>
-                <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
-                    Delusional
+                <p className="border border-green-500 bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+                    Student Appreciation Award
                 </p>
             </motion.div>
+
             <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-[#0d0d0d] p-4 dark:bg-black dark:border-white/[0.1] border border-white/[0.2] flex flex-col items-center justify-center">
                 <Image
                     src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
@@ -224,12 +227,13 @@ const SkeletonFour = () => {
                     className="rounded-full h-10 w-10"
                 />
                 <p className="sm:text-sm text-xs text-center font-semibold text-[#b7ab98] mt-4">
-                    Tailwind CSS is cool, you know
+                    Transitioned to Full-Stack Development
                 </p>
-                <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-                    Sensible
+                <p className="border border-red-500 bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
+                    Best Student Award
                 </p>
             </motion.div>
+
             <motion.div
                 variants={second}
                 className="h-full w-1/3 rounded-2xl bg-[#0d0d0d] p-4 border border-white/[0.2] flex flex-col items-center justify-center"
@@ -242,15 +246,16 @@ const SkeletonFour = () => {
                     className="rounded-full h-10 w-10"
                 />
                 <p className="sm:text-sm text-xs text-center font-semibold text-[#b7ab98] mt-4">
-                    I love angular, RSC, and Redux.
+                    Internship at KGK Infotech LLP
                 </p>
-                <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-                    Helpless
+                <p className="border border-[#eb5939] bg-orange-900/20 text-[#eb5939] text-xs rounded-full px-2 py-0.5 mt-4">
+                    Full-Stack Projects & PostgreSQL
                 </p>
             </motion.div>
         </motion.div>
     );
 };
+
 const SkeletonFive = () => {
     const variants = {
         initial: {
@@ -285,7 +290,7 @@ const SkeletonFive = () => {
         >
             <motion.div
                 variants={variants}
-                className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
+                className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2 items-start space-x-2 bg-white dark:bg-black"
             >
                 <Image
                     src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
@@ -294,76 +299,79 @@ const SkeletonFive = () => {
                     width="100"
                     className="rounded-full h-10 w-10"
                 />
-                <p className="text-xs text-neutral-500">
-                    There are a lot of cool framerworks out there like React, Angular,
-                    Vue, Svelte that can make your life ....
+                <p className="text-xs text-neutral-700">
+                    Joined KGK Infotech as Full-Time Developer — focusing on PERN stack & advanced PostgreSQL concepts.
                 </p>
             </motion.div>
+
             <motion.div
                 variants={variantsSecond}
                 className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
             >
-                <p className="text-xs text-neutral-500">Use PHP.</p>
+                <p className="text-xs text-neutral-700">
+                    Continuous Skill Development
+                </p>
                 <div className="h-6 w-6 rounded-full bg-gradient-to-r from-[#eb5939] to-[#eb5939] shrink-0" />
             </motion.div>
         </motion.div>
     );
 };
+
+
 const items = [
     {
-        title: "AI Content Generation",
+        title: "Started My Frontend Journey",
         description: (
             <span className="text-sm">
-                Experience the power of AI in generating unique content.
+                Learned HTML, CSS, Media Query, Bootstrap & JavaScript. Began exploring Tailwind CSS and Next.js.
             </span>
         ),
         header: <SkeletonOne />,
         className: "md:col-span-1",
-        icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+        icon: <IconCode className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "Automated Proofreading",
+        title: "Frontend Excellence & Recognition",
         description: (
             <span className="text-sm">
-                Let AI handle the proofreading of your documents.
+                Completed frontend training with React & Redux — received a Student Appreciation Award.
             </span>
         ),
         header: <SkeletonTwo />,
         className: "md:col-span-1",
-        icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+        icon: <IconCertificate className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "Contextual Suggestions",
+        title: "Transition to Full-Stack Development",
         description: (
             <span className="text-sm">
-                Get AI-powered suggestions based on your writing context.
+                Learned Node.js, Express, MongoDB, Mongoose & authentication — awarded Best Student in Full-Stack.
             </span>
         ),
         header: <SkeletonThree />,
         className: "md:col-span-1",
-        icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+        icon: <IconSchool className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "Sentiment Analysis",
+        title: "Internship at KGK Infotech LLP",
         description: (
             <span className="text-sm">
-                Understand the sentiment of your text with AI analysis.
+                Worked as Software Developer Intern — mastered Next.js, Tailwind & PostgreSQL from scratch.
             </span>
         ),
         header: <SkeletonFour />,
         className: "md:col-span-2",
-        icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+        icon: <IconBrandNextjs className="h-4 w-4 text-neutral-500" />,
     },
-
     {
-        title: "Text Summarization",
+        title: "Full-Time Software Developer",
         description: (
             <span className="text-sm">
-                Summarize your lengthy documents with AI technology.
+                Joined KGK Infotech full-time and continued mastering PostgreSQL & PERN stack development.
             </span>
         ),
         header: <SkeletonFive />,
         className: "md:col-span-1",
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    },
+        icon: <IconDatabase className="h-4 w-4 text-neutral-500" />,
+    }
 ];
