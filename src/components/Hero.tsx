@@ -62,7 +62,7 @@ export function Hero() {
                             "Web Designer",
                         ]}
                     />
-                    {/* <span className="text-2xl text-[#b7ab98] font-bold tracking-tight drop-shadow-lg md:text-2xl" style={{letterSpacing:"2px"}}>based in India.</span> */}
+                    <span className="text-2xl text-[#b7ab98] font-bold tracking-tight drop-shadow-lg md:text-2xl" style={{letterSpacing:"2px"}}>based in India.</span>
                 </motion.div>
 
                 <div className="pt-5 md:pt-10" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
