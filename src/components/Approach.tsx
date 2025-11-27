@@ -16,7 +16,7 @@ export const Approach = () => {
           A structured, transparent, and collaborative process that ensures your website is built with clarity, precision, and purpose—from the first idea to the final launch.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center max-w-7xl m-auto gap-4 pt-0 pb-15 p-4 xl:p-0 xl:pt-5 xl:pb-20">
+      <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl m-auto gap-4 pt-0 pb-15 p-4 xl:p-0 xl:pt-5 xl:pb-20">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
