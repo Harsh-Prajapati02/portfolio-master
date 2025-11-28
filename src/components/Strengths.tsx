@@ -38,7 +38,7 @@ export function Strengths() {
             className: "col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800",
         },
         {
-             title: "Continuous Learning & Adaptability",
+            title: "Continuous Learning & Adaptability",
             description:
                 "Quickly adapts to new technologies, consistently upgrading skills in advanced backend concepts, database design, and full-stack best practices.",
             skeleton: <SkeletonFour />,
@@ -48,29 +48,31 @@ export function Strengths() {
 
     return (
         <>
-            <div className="max-w-7xl mx-auto py-15 px-4 pb-0 md:px-8 lg:px-10">
-                <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
-                    <Cover className="text-[#b7ab98] hover:text-[#eb5939]">
-                        Core Strengths & Expertise
-                    </Cover>
-                </h2>
+            <div className="pb-15" style={{ borderBottom: "5px solid #eb5939" }}>
+                <div className="max-w-7xl mx-auto py-15 px-4 pb-0 md:px-8 lg:px-10">
+                    <h2 className="text-2xl md:text-5xl mb-4 text-[#b7ab98] dark:text-white max-w-4xl">
+                        <Cover className="text-[#b7ab98] hover:text-[#eb5939]">
+                            Core Strengths & Expertise
+                        </Cover>
+                    </h2>
 
-                <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-xl">
-                    Combining full-stack technical expertise with strong problem-solving,
-                    time management, and collaboration skills, I deliver high-quality web
-                    solutions and continuously enhance my professional capabilities.
-                </p>
-            </div>
-            <div className="relative z-20 max-w-6xl mx-auto">
-                <div className="relative">
-                    <div className="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border border-neutral-800 rounded-md dark:border-neutral-800">
-                        {features.map((feature) => (
-                            <FeatureCard key={feature.title} className={feature.className}>
-                                <FeatureTitle>{feature.title}</FeatureTitle>
-                                <FeatureDescription>{feature.description}</FeatureDescription>
-                                <div className="h-full w-full">{feature.skeleton}</div>
-                            </FeatureCard>
-                        ))}
+                    <p className="text-[#b7ab98] dark:text-neutral-300 text-sm md:text-base max-w-xl">
+                        Combining full-stack technical expertise with strong problem-solving,
+                        time management, and collaboration skills, I deliver high-quality web
+                        solutions and continuously enhance my professional capabilities.
+                    </p>
+                </div>
+                <div className="relative z-20 max-w-6xl mx-auto">
+                    <div className="relative">
+                        <div className="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border border-neutral-800 rounded-md dark:border-neutral-800">
+                            {features.map((feature) => (
+                                <FeatureCard key={feature.title} className={feature.className}>
+                                    <FeatureTitle>{feature.title}</FeatureTitle>
+                                    <FeatureDescription>{feature.description}</FeatureDescription>
+                                    <div className="h-full w-full">{feature.skeleton}</div>
+                                </FeatureCard>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
