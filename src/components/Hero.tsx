@@ -34,7 +34,7 @@ export function Hero() {
                     />
                 </p>
                 <h1 className="text-5xl lg:text-7xl font-semibold max-w-4xl mx-auto text-center relative z-20 py-2 pb-2 bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#b7ab98] tracking-wide leading-13 md:leading-15 lg:leading-20">
-                    Transforming Concepts into <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#b7ab98] via-[#b7ab98] to-[#eb5939]">Seamless <span className="text-[#eb5939]">Digital Solutions</span></span>
+                    Transforming Concepts into <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#b7ab98] via-[#b7ab98] to-[#eb5939]">Seamless <span className="text-[#b7ab98]">Digital Solutions</span></span>
                 </h1>
                 <motion.div className="relative mx-4 my-0 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row ">
                     <LayoutTextFlip
