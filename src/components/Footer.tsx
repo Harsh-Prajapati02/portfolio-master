@@ -12,11 +12,10 @@ export const Footer = () => {
     >
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-5xl lg:text-6xl font-semibold max-w-4xl mx-auto text-center relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-[#eb5939] via-[#b7ab98] to-[#b7ab98] tracking-wide leading-13 md:leading-15 lg:leading-15">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Ready to take <span className="text-[#eb5939]">your</span> digital <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#b7ab98] via-[#b7ab98] to-[#eb5939]">presence to the next level?</span>
         </h1>
 
-        <p className="text-[#b7ab98] text-center my-5 text-sm md:text-lg max-w-xl">
+        <p className="text-[#b7ab98] text-center my-5 text-sm md:text-lg max-w-sm md:max-w-xl">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
