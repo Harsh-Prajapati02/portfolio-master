@@ -230,7 +230,7 @@ const ShaderMaterialComp = ({
     return new THREE.ShaderMaterial({
       vertexShader: `
         precision mediump float;
-        in vec2 uv;
+        
         out vec2 fragCoord;
 
         uniform vec2 u_resolution;
