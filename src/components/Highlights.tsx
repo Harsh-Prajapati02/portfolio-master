@@ -5,7 +5,6 @@ import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import {
     IconSchool,
     IconCode,
-    IconBrandReact,
     IconBrandNextjs,
     IconDatabase,
     IconCertificate,
