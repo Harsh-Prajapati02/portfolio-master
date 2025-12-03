@@ -26,7 +26,9 @@ export const InfiniteMovingCards = ({
     useEffect(() => {
         addAnimation();
     }, []);
+
     const [start, setStart] = useState(false);
+
     function addAnimation() {
         if (containerRef.current && scrollerRef.current) {
             const scrollerContent = Array.from(scrollerRef.current.children);
@@ -43,6 +45,7 @@ export const InfiniteMovingCards = ({
             setStart(true);
         }
     }
+
     const getDirection = () => {
         if (containerRef.current) {
             if (direction === "left") {
@@ -58,6 +61,7 @@ export const InfiniteMovingCards = ({
             }
         }
     };
+    
     const getSpeed = () => {
         if (containerRef.current) {
             if (speed === "fast") {
@@ -69,6 +73,7 @@ export const InfiniteMovingCards = ({
             }
         }
     };
+    
     return (
         <div
             ref={containerRef}
@@ -95,7 +100,7 @@ export const InfiniteMovingCards = ({
                                 aria-hidden="true"
                                 className="user-select-none pointer-events-none absolute -top-0.5 -left-0.5 -z-1 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
                             ></div>
-                            <span className="relative z-20 text-sm leading-[1.6] font-normal text-[#b7ab98]">
+                            <span className="relative z-20 text-md leading-[1.6] font-normal text-[#b7ab98]">
                                 {item.quote}
                             </span>
                             <div className="relative z-20 mt-6 flex flex-row items-center">
