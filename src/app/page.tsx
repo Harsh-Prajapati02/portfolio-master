@@ -3,6 +3,7 @@
 import { About } from "@/components/About";
 import { Achievements } from "@/components/Achievements";
 import { Approach } from "@/components/Approach";
+import { Testimonials } from "@/components/Testimonials";
 import { Experience } from "@/components/Experience";
 import { Footer } from "@/components/Footer";
 import { Footer2 } from "@/components/Footer2";
@@ -56,6 +57,9 @@ export default function Home() {
 
       {/* ----- Services Section ----- */}
       <Services />
+
+      {/* ----- Clients Section */}
+      <Testimonials />
 
       {/* ----- My Approach Section ----- */}
       <Approach />
