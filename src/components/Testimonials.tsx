@@ -15,7 +15,7 @@ export function Testimonials() {
                     Authentic feedback from clients who value quality, reliability, and results.
                 </p>
             </div>
-            <div className="h-[22rem] md:h-[21rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.05] items-center justify-start relative overflow-hidden" style={{ borderBottom: "5px solid #eb5939" }}>
+            <div className="h-[23rem] md:h-[21rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.05] items-center justify-start relative overflow-hidden" style={{ borderBottom: "5px solid #eb5939" }}>
                 <InfiniteMovingCards
                     items={testimonials}
                     direction="right"
