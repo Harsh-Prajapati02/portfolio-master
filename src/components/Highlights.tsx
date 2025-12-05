@@ -212,7 +212,7 @@ const SkeletonFour = () => {
                 <p className="sm:text-sm text-xs text-center font-semibold text-[#b7ab98] mt-4">
                     Completed Frontend Training
                 </p>
-                <p className="border border-green-500 bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+                <p className="border border-green-500 bg-green-900/20 text-green-600 text-xs text-center rounded-lg md:rounded-sm px-2 py-2 md:px-2 md:py-0.5 mt-4">
                     Student Appreciation Award
                 </p>
             </motion.div>
@@ -228,7 +228,7 @@ const SkeletonFour = () => {
                 <p className="sm:text-sm text-xs text-center font-semibold text-[#b7ab98] mt-4">
                     Transitioned to Full-Stack Development
                 </p>
-                <p className="border border-red-500 bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
+                <p className="border border-red-500 bg-red-900/20 text-red-600 text-xs text-center rounded-lg md:rounded-sm px-2 py-2 md:px-2 md:py-0.5 mt-4">
                     Best Student Award
                 </p>
             </motion.div>
@@ -247,7 +247,7 @@ const SkeletonFour = () => {
                 <p className="sm:text-sm text-xs text-center font-semibold text-[#b7ab98] mt-4">
                     Internship at KGK Infotech LLP
                 </p>
-                <p className="border border-[#eb5939] bg-orange-900/20 text-[#eb5939] text-xs rounded-full px-2 py-0.5 mt-4">
+                <p className="border border-[#eb5939] bg-orange-900/20 text-[#eb5939] text-xs text-center rounded-lg md:rounded-sm px-2 py-2 md:px-2 md:py-0.5 mt-4">
                     Full-Stack Projects & PostgreSQL
                 </p>
             </motion.div>
